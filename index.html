@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Bootstrap</title>
+</head>
+<body>
+
+
+<!-- Navbar -->
+<!-- navbar expand lg = responsive à partide lg, = 992px -->
+<!-- Navbar light donne la couleur grise à notre icone hamburger -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+   
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+      
+        <div class="collapse navbar-collapse" id="navbarToggler">
+
+          <ul class="navbar-nav w-100 d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#accueil">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#about">À Propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#contact">Contact</a>
+            </li>
+          </ul>
+  
+
+        </div>
+      </nav>
+
+      <!-- Accueil -->
+
+<div class="text-white bg-dark text-center d-flex flex-column align-items-center w-100 h-75 p-3 mx-auto" id="accueil">
+
+    
+      <div class="txtAccueil mt-auto">
+        <img src="ressources/man.svg" class="imgProfileAcc" alt="profile">
+        <h1>Salut, moi c'est John.</h1>
+        <p class="lead">Je suis développeur Front-End, spécialisé dans les différents frameworks JavaScript.</p>
+        <p class="lead">
+          <a href="#about" class="btn btn-lg btn-secondary">En savoir plus</a>
+        </p>    
+    </div>
+    
+    <footer class="txtAccueilBot mt-auto">
+        <div class="inner">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </footer>
+</div>
+
+<!-- Portfolio -->
+
+
+
+
+
+<div class="py-5" id="portfolio">
+
+    <h2 class="text-center mb-5 text-uppercase">Portfolio</h2>
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="ressources/ReactTwitch.png" alt="Card image">
+                <div class="card-body">
+                  <h4>Cloner Twitch avec React</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam mollitia molestias ipsum adipisci maxime?</p>
+
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="text-dark" target="_blank" href="https://github.com/">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                Code source
+                        </button>
+                      </a>
+                    <a class="text-dark ml-2" href="#">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                            Voir le Projet
+                          </button>
+                    </a>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="ressources/animation.jpg" alt="Card image">
+                <div class="card-body">
+                  <h4>UI / UX</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam mollitia molestias ipsum adipisci maxime?</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="text-dark" target="_blank" href="https://github.com/">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                Code source
+                        </button>
+                      </a>
+                    <a class="text-dark ml-2" href="#">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                            Voir le Projet
+                          </button>
+                    </a>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="ressources/MeteoApp.png" alt="Card image">
+                <div class="card-body">
+                 <h4>Application météo</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam mollitia molestias ipsum adipisci maxime?</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="text-dark" target="_blank" href="https://github.com/">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                Code source
+                        </button>
+                      </a>
+                    <a class="text-dark ml-2" href="#">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                            Voir le Projet
+                          </button>
+                    </a>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="ressources/SiteMenu.png" alt="Card image">
+                <div class="card-body">
+                <h4>Design Responsive</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam mollitia molestias ipsum adipisci maxime?</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="text-dark" target="_blank" href="https://github.com/">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                Code source
+                        </button>
+                      </a>
+                    <a class="text-dark ml-2" href="#">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                            Voir le Projet
+                          </button>
+                    </a>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="ressources/SiteResPic.jpg" alt="Card image">
+                <div class="card-body">
+                <h4>Site pour particulier</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam mollitia molestias ipsum adipisci maxime?</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="text-dark" target="_blank" href="https://github.com/">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                Code source
+                        </button>
+                      </a>
+                    <a class="text-dark ml-2" href="#">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                            Voir le Projet
+                          </button>
+                    </a>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="ressources/Visu.jpg" alt="Card image">
+                <div class="card-body">
+                <h4>Visualisation de données</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam mollitia molestias ipsum adipisci maxime?</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="text-dark" target="_blank" href="https://github.com/">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                Code source
+                        </button>
+                      </a>
+                    <a class="text-dark ml-2" href="#">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                            Voir le Projet
+                          </button>
+                    </a>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="ressources/js.jpg" alt="Card image">
+                <div class="card-body">
+                <h4>JavaScript moderne</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam mollitia molestias ipsum adipisci maxime?</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="text-dark" target="_blank" href="https://github.com/">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                Code source
+                        </button>
+                      </a>
+                    <a class="text-dark ml-2" href="#">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                            Voir le Projet
+                          </button>
+                    </a>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="ressources/grid.jpg" alt="Card image">
+                <div class="card-body">
+                  <h4>Grille CSS</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam mollitia molestias ipsum adipisci maxime?</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="text-dark" target="_blank" href="https://github.com/">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                Code source
+                        </button>
+                      </a>
+                    <a class="text-dark ml-2" href="#">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                            Voir le Projet
+                          </button>
+                    </a>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card mb-4 shadow-sm">
+                <img class="card-img-top" src="ressources/bulma.jpg" alt="Card image">
+                <div class="card-body">
+                <h4>Framework Bulma</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam mollitia molestias ipsum adipisci maxime?</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="text-dark" target="_blank" href="https://github.com/">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                Code source
+                        </button>
+                      </a>
+                    <a class="text-dark ml-2" href="#">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                            Voir le Projet
+                          </button>
+                    </a>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Section à propos -->
+<section class="bg-dark text-white mb-0" id="about">
+
+        <div class="container py-5">
+    
+          <!-- About Section Heading -->
+          <h2 class="text-center text-uppercase text-white pb-3">À Propos</h2>
+    
+          <!-- About Section Content -->
+          <div class="row">
+            <div class="col-lg-4 ml-auto">
+              <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas nostrum non at veritatis deleniti! Quisquam libero voluptates optio quas minima, dignissimos temporibus nam. Harum id, aliquam facere dolorem assumenda corporis!.</p>
+            </div>
+            <div class="col-lg-4 mr-auto">
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt itaque ex cumque fugiat perspiciatis nam ipsa necessitatibus quasi ullam delectus consequuntur ipsum ab, neque autem provident hic, corrupti unde impedit!</p>
+            </div>
+          </div>
+    
+          <!-- About Section Button -->
+          <div class="text-center mt-4">
+            <a class="btn btn-xl btn-outline-light" href="#contact-form">
+              Contactez-moi
+            </a>
+          </div>
+    
+        </div>
+      </section>
+<!-- Mes Services -->
+
+<h2 class="text-center my-5 text-uppercase" id="services">Mes Services</h2>
+<div class="container">
+           <!-- Three columns of text below the carousel -->
+           <div class="row d-flex justify-content-center">
+
+              <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center">
+                  <img class="" src="ressources/vue.png" alt="framework logo" width="120" height="120">
+                  <h2 class="text-center" >Vue</h2>
+                  <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                  <p>
+                    <a class="btn btn-secondary mb-2" href="#" role="button">Voir mes projets &raquo;</a></p>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center">
+                  <img class="" src="ressources/angular-icon.svg" alt="framework logo" width="140" height="140">
+                  <h2 class="text-center" >Angular</h2>
+                  <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                  <p>
+                    <a class="btn btn-secondary mb-2" href="#" role="button">Voir mes projets &raquo;</a></p>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center">
+                    <img class="" src="ressources/React.png" alt="framework logo" width="140" height="140">
+                    <h2 class="text-center" >React</h2>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                    <p>
+                      <a class="btn btn-secondary mb-2" href="#" role="button">Voir mes projets &raquo;</a></p>
+                  </div>
+            </div>
+
+       
+      
+</div>
+
+
+
+    <!--  Contact Form  -->
+
+<section class="bg-dark text-white mb-0" id="contact">
+
+  <div class="container">
+    <h2 class="titreContact text-center">Rentrons en Contact !</h2>
+    <div class="row">
+        <div class="col-10 mx-auto">
+          
+          <form id="contact-form" role="form">
+            
+            <div class="messages"></div>
+            
+            <div class="controls">
+              
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="form_name">Prénom *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="form_lastname">Nom *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-12 mb-5">
+                  <input type="submit" class="btn btn-success btn-send" value="Envoyez">
+                </div>
+              </div>
+            </div>
+            
+          </form>
+        </div>
+        
+      </div>    
+    </div>
+  </section>
+    
+    
+    
+    <footer class="bg-dark text-white">
+      <p class="text-center m-0">
+        @Tout Droits Réservés - John Doe
+    </p>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
